@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+*,
+*:hover,
+*:after {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  line-height: 1.5;
+}
+.en {
+  font-size: 24px;
+  font-weight: 700;
+}
+.ch {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.325;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+img {
+  vertical-align: top;
+}
+
+.white {
+  color: #fff;
+  background-color: #000;
+}
+
+.heading {
+  background-image: url("../images/photo-1552393700-42696fb89bfa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 958px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.heading-text {
+  margin: 0 auto;
+}
+
+.heading-text h1 {
+  margin-bottom: 32px;
+}
+.icon-set {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.icon-set img {
+  margin-right: 16px;
+}
+.about {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.introduce {
+  margin-bottom: 24px;
+}
+
+.introduce img {
+  margin-bottom: 20px;
+}
+
+.introduce p {
+  margin-bottom: 8px;
+}
+
+.experiences {
+  width: 384px;
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.experiences li {
+  margin-top: 28px;
+  position: relative;
+}
+.experiences li::before {
+  content: " ";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: -38px;
+  top: 4px;
+  margin-right: 16px;
+  border-radius: 22px;
+  background-color: #891818;
+}
+
+.brand {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 120px;
+}
+.brand h2 {
+  margin-bottom: 12px;
+}
+
+.brand .ch {
+  margin-top: 32px;
+  margin-bottom: 68px;
+}
+.brand .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1224px;
+  margin: 0 auto;
+}
+.images img {
+  margin-bottom: 40px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.works {
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 96px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.works .work {
+  margin-top: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work .item {
+  margin-bottom: 48px;
+}
+
+.item p {
+  margin-top: 16px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.contact p {
+  margin-top: 16px;
+}
