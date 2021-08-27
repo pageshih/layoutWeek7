@@ -136,6 +136,9 @@ table {
   font-style: italic;
   line-height: 1.5;
 }
+body{
+  overflow-x: hidden;
+}
 .en {
   font-size: 24px;
   font-weight: 700;
